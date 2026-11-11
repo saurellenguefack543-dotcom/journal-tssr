@@ -5,6 +5,7 @@ url: "https://saurellenguefack543-dotcom.github.io"
 baseurl: "/journal-tssr"
 lang: fr
 timezone: Europe/Paris
+future: true
 theme: minima
 plugins:
   - jekyll-feed
