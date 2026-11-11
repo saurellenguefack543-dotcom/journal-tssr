@@ -17,7 +17,7 @@ Les articles du journal racontent ce que je retiens. Les fichiers ci-dessous son
   </li>
   <li>
     <a href="https://github.com/saurellenguefack543-dotcom/journal-tssr/blob/main/linux/01-packet-tracer-ubuntu.md">Packet Tracer sur Ubuntu et récupération de compte via GRUB</a><br>
-    Compte rendu de deux incidents réels sur mon Dell Latitude sous Ubuntu.
+    Compte rendu illustré de deux incidents réels sur mon Dell Latitude sous Ubuntu.
   </li>
   <li>
     <a href="https://github.com/saurellenguefack543-dotcom/journal-tssr/blob/main/diagnostic/01-logique-et-depannage.md">Logique propositionnelle et dépannage d'un ticket réseau</a><br>
