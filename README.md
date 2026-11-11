@@ -2,7 +2,7 @@
 
 Blog : [https://saurellenguefack543-dotcom.github.io/journal-tssr/](https://saurellenguefack543-dotcom.github.io/journal-tssr/)
 
-Depuis octobre 2026, je prépare le titre de Technicienne Supérieure Systèmes et Réseaux (TSSR) à Green Up Academy, en Île-de-France. Je suis également présidente du BDE de mon école, et bénévole chez Instant Social by Rose. Je recherche une alternance de 24 mois dans les systèmes, les réseaux et la cybersécurité. Mon objectif, plus loin, est de devenir ingénieure en cybersécurité.
+Depuis octobre 2026, je prépare le titre de Technicienne Supérieure Systèmes et Réseaux (TSSR) à Green Up Academy, en Île-de-France. Je suis également présidente du BDE de mon école, et bénévole chez Instant Social by Rose. Je recherche une alternance au rythme de 2 semaines en entreprise / 2 semaines à l'école, disponible immédiatement, dans les systèmes, les réseaux et la cybersécurité. Mon objectif, plus loin, est de devenir ingénieure en cybersécurité.
 
 Ce dépôt est mon carnet de bord. Le journal en ligne rassemble des articles sur ce que je retiens des cours et des travaux pratiques. Les dossiers ci-dessous gardent mes notes de travail plus détaillées : l'adressage IP, les VLAN, Linux, Windows, le diagnostic, et ce que je lis chaque semaine. Ce ne sont pas des supports de cours recopiés. Ce sont mes propres notes, mes schémas, et les incidents que j'ai réellement rencontrés et résolus.
 
@@ -10,7 +10,7 @@ Ce dépôt est mon carnet de bord. Le journal en ligne rassemble des articles su
 
 Blog: [https://saurellenguefack543-dotcom.github.io/journal-tssr/](https://saurellenguefack543-dotcom.github.io/journal-tssr/)
 
-Since October 2026, I have been preparing the Technicienne Supérieure Systèmes et Réseaux (TSSR) qualification at Green Up Academy, in Île-de-France. I am also president of my school's student union (BDE), and a volunteer at Instant Social by Rose. I am looking for a 24-month work-study placement in systems, networks and cybersecurity. In the longer term, my goal is to become a cybersecurity engineer.
+Since October 2026, I have been preparing the Technicienne Supérieure Systèmes et Réseaux (TSSR) qualification at Green Up Academy, in Île-de-France. I am also president of my school's student union (BDE), and a volunteer at Instant Social by Rose. I am looking for a work-study placement (alternance), 2 weeks in company / 2 weeks at school, available immediately, in systems, networks and cybersecurity. In the longer term, my goal is to become a cybersecurity engineer.
 
 This repository is my learning log. The online journal gathers articles about what I take away from lectures and labs. The folders below keep more detailed working notes: IP addressing, VLANs, Linux, Windows, troubleshooting, and what I read each week. These are not copied handouts. They are my own notes, diagrams, and incidents I actually ran into and solved.
 
