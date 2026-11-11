@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<section class="intro">
+  {{ content }}
+</section>
+
+<section class="post-list" aria-label="Articles récents">
+  {%- if site.posts.size == 0 -%}
+    <p>Les premiers articles arrivent bientôt.</p>
+  {%- endif -%}
+  {%- for post in site.posts -%}
+    <article class="post-teaser">
+      <p class="post-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">
+          {%- assign m = post.date | date: "%-m" -%}
+          {%- case m -%}
+            {%- when '1' %}{{ post.date | date: "%-d" }} janvier {{ post.date | date: "%Y" }}
+            {%- when '2' %}{{ post.date | date: "%-d" }} février {{ post.date | date: "%Y" }}
+            {%- when '3' %}{{ post.date | date: "%-d" }} mars {{ post.date | date: "%Y" }}
+            {%- when '4' %}{{ post.date | date: "%-d" }} avril {{ post.date | date: "%Y" }}
+            {%- when '5' %}{{ post.date | date: "%-d" }} mai {{ post.date | date: "%Y" }}
+            {%- when '6' %}{{ post.date | date: "%-d" }} juin {{ post.date | date: "%Y" }}
+            {%- when '7' %}{{ post.date | date: "%-d" }} juillet {{ post.date | date: "%Y" }}
+            {%- when '8' %}{{ post.date | date: "%-d" }} août {{ post.date | date: "%Y" }}
+            {%- when '9' %}{{ post.date | date: "%-d" }} septembre {{ post.date | date: "%Y" }}
+            {%- when '10' %}{{ post.date | date: "%-d" }} octobre {{ post.date | date: "%Y" }}
+            {%- when '11' %}{{ post.date | date: "%-d" }} novembre {{ post.date | date: "%Y" }}
+            {%- when '12' %}{{ post.date | date: "%-d" }} décembre {{ post.date | date: "%Y" }}
+          {%- endcase -%}
+        </time>
+      </p>
+      <h2 class="post-teaser-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </h2>
+      {% include tag-list.html tags=post.tags %}
+      {%- if post.excerpt -%}
+        <p class="post-excerpt">{{ post.excerpt | strip_html | strip }}</p>
+      {%- endif -%}
+      <p class="read-more"><a href="{{ post.url | relative_url }}">Lire l'article</a></p>
+    </article>
+  {%- endfor -%}
+</section>

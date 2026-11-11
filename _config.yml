@@ -1,0 +1,57 @@
+title: "Journal TSSR - Saurelle Nguefack"
+description: >-
+  Ce que j'apprends chaque jour en systèmes, réseaux et cybersécurité / What I learn every day in systems, networks and cybersecurity
+url: "https://saurellenguefack543-dotcom.github.io"
+baseurl: "/journal-tssr"
+lang: fr
+timezone: Europe/Paris
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: /:year/:month/:day/:title/
+excerpt_separator: "<!--more-->"
+header_pages:
+  - about.md
+  - themes.md
+  - notes.md
+author:
+  name: Saurelle Nguefack
+  email: saurellenguefack543@gmail.com
+email: saurellenguefack543@gmail.com
+github_username: saurellenguefack543-dotcom
+minima:
+  date_format: "%-d %B %Y"
+header_image: /assets/images/header-christina-morillo.jpg
+header_image_alt: >-
+  Femme ingénieure consultant un ordinateur portable devant des baies serveurs
+photo_credit_name: Christina Morillo
+photo_credit_collection: WOCinTech Chat
+photo_credit_url: https://www.pexels.com/photo/software-engineer-standing-beside-server-racks-1181354/
+photo_credit_author_url: https://www.pexels.com/@christina-morillo-1181395/
+photo_license_name: Licence Pexels
+photo_license_url: https://www.pexels.com/license/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - reseaux
+  - linux
+  - diagnostic
+  - windows-linux
+  - veille
+  - .gitignore

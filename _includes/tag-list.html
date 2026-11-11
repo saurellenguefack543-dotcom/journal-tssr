@@ -1,0 +1,16 @@
+{%- if include.tags and include.tags.size > 0 -%}
+<ul class="tag-list">
+  {%- for tag in include.tags -%}
+    {%- case tag -%}
+      {%- when "Réseaux" -%}{%- assign tag_slug = "reseaux" -%}
+      {%- when "Adressage IP" -%}{%- assign tag_slug = "adressage-ip" -%}
+      {%- when "Linux" -%}{%- assign tag_slug = "linux" -%}
+      {%- when "Windows" -%}{%- assign tag_slug = "windows" -%}
+      {%- when "Cybersécurité" -%}{%- assign tag_slug = "cybersecurite" -%}
+      {%- when "Veille" -%}{%- assign tag_slug = "veille" -%}
+      {%- else -%}{%- assign tag_slug = tag | slugify: "ascii" -%}
+    {%- endcase -%}
+    <li><a href="{{ "/tags/" | append: tag_slug | append: "/" | relative_url }}">{{ tag }}</a></li>
+  {%- endfor -%}
+</ul>
+{%- endif -%}
